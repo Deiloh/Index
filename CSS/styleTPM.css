@@ -5,10 +5,13 @@ body {
 }
 
 .YTBox{
-    margin-left: 50px;
+    margin: 15px auto;
+    
     background: #15151F;
     padding: 20px;
     border-radius: 12px;
+    display: block;
+    align-items: center;
     
 }
 .opinionbox{
@@ -63,9 +66,7 @@ h2{
     border-radius: 12px;
 
 }
-a{
-    color:salmon
-}
+
 .p1{
     display: flex;
     margin: 14px 14px;
@@ -74,10 +75,12 @@ a{
     justify-content: center;
 }
 .parrafo{
-    margin: 15px 400px;
+    margin: 15px auto;
     background: #262636;
     padding: 15px;
     border-radius: 50px;
+    height: auto;
+    width: 700px;
 
 }
 .downlaod{
@@ -85,7 +88,24 @@ a{
     background: #52528b;
     padding: 20px;
     border-radius: 12px;
+    text-align: center;
     
+    
+}
+.cssDownload{
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: #4a79c4;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    
+}
+a{
+    color:salmon
 }
 
 
