@@ -1,11 +1,24 @@
 body{
     margin: 0;
+    background: #0E1126;
 }
 .title {
-    text-align: center;
+    width: 230px;
+    margin: 20px auto;
     margin-top: 20px;
-    color: rgb(236, 246, 255);
+    color: #ECF6FF;
     font-family: Arial;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.title:hover {
+    transform: scale(1.1)
+}
+.subtitle {
+    color: #ecf6ff9c;
+    margin-top: -10px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .layout {
@@ -34,7 +47,10 @@ body{
     margin: 10px;
 }
 .navbar:hover{
-    width: 250px;
+    width: 210px;
+}
+.profile {
+    text-align: center;
 }
 
 .content1 {
@@ -69,7 +85,7 @@ body{
     margin: 0;
 }
 .box-proyects p {
-    text-align: justify;
+    text-align:start
 }
 .using {
     font-size: 15px;
