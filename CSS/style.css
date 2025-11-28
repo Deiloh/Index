@@ -8,12 +8,15 @@
 .aboutme {
     background: #27273f;
     padding: 20px 0px 150px 20px;
-    height: 50px;
+    height: 100px;
     width: 600px;
     margin: 20px auto;
     border-radius: 12px;
     
     
+}
+.aboutme p { 
+    margin-right: 15px;
 }
 
 
