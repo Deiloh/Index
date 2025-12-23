@@ -33,7 +33,7 @@ body {
 }
 
 .nav_container {
-    max-width: 1200px;
+    max-width: auto;
     margin: 10px auto;
     padding: 16px 32px;
 
@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+    
 }
 
 .nav_list {
@@ -63,6 +64,42 @@ body {
 .nav_home:hover,
 .nav_list a:hover {
     color: #9A7CFF;
+}
+
+.hero-logo-nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-logo-nav a {
+    display: inline-block;
+}
+
+.hero-logo-nav img {
+    pointer-events: auto;
+
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    background: #0B0D12;
+    padding: 8px;
+
+    box-shadow:
+    0 0 0 2px rgba(127, 90, 240, 0.35),
+    0 0 30px rgba(127, 90, 240, 0.35);
+
+    transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+
+    
+}
+.hero-logo-nav img:hover {
+    transform: scale(1.15) rotate(8deg);
 }
 
 
@@ -124,7 +161,7 @@ h2 {
 
 
 .hero-buttons {
-    margin-top: 20vh;
+    margin-top: 14vh;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -145,6 +182,7 @@ h2 {
 .btn.ghost {
     border: 1px solid rgba(230,230,235,.3);
     color: #E6E6EB;
+
 }
 
 
@@ -206,3 +244,107 @@ h2 {
     transform: translateY(-6px) scale(1.05);
     box-shadow: 0 0 25px rgba(127, 90, 240, 0.45);
 }
+
+
+.games h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #7F5AF0,
+    transparent
+  );
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 80px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #7F5AF0;
+  box-shadow: 0 0 15px rgba(127,90,240,0.8);
+}
+
+.timeline-content {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(127,90,240,0.25);
+  border-radius: 18px;
+  padding: 20px 24px;
+}
+
+.timeline-content h3 {
+  margin: 6px 0;
+}
+.timeline-content a {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.year {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #9A7CFF;
+}
+
+.timeline-details {
+  margin-top: 14px;
+}
+
+.timeline-details summary {
+  cursor: pointer;
+  color: #9A7CFF;
+  font-size: 14px;
+  list-style: none;
+}
+
+.timeline-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.timeline-details summary::after {
+  content: " +";
+}
+
+.timeline-details[open] summary::after {
+  content: " −";
+}
+
+.timeline-details p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
