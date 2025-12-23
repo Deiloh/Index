@@ -6,25 +6,88 @@
         <link rel="stylesheet" type="text/css" href="style.css">  <!-- Enlazamos el archivo css en la carpeta "css"-->
     </head>
     <body>
-        <nav class="navbar"> 
-            <ul class="nav_list">
-                <li class="nav_item">Sobre Mi</li>
-                <li class="nav_item">Blender</li>
-                <li class="nav_item">Cortometrajes</li>
-                <li class="nav_item">Videojuegos</li>
-            </ul>
-        </nav>
-        <h1>David Gomez</h1>
-        <h2 class="subtitle">Game Developer · Programador · Artista 3D</h2>
+        <nav class="navbar">
+  <div class="nav_container">
+    <a class="nav_home" href="#home">Home</a>
 
-        <div class="hero-logo">
-  <img class="img_logo" src="logo1.png" alt="Logo David Gomez">
+    <ul class="nav_list">
+      <li><a href="#Sobre-mi">Sobre mí</a></li>
+      <li><a href="#Videojuegos">Videojuegos</a></li>
+      <li><a href="#Blender">Blender</a></li>
+      <li><a href="#Cortometrajes">Cortometrajes</a></li>
+    </ul>
+  </div>
+</nav>
+        <section id="home" class="section_hero">
+  <h1>· David Gomez ·</h1>
+  <h2 class="subtitle">Game Developer · Programador · Artista 3D</h2>
+
+  <div class="hero-logo">
+  <a href="https://www.youtube.com/@Deiloh" target="_blank" rel="noopener">
+    <img class="img_logo" src="logo3.png" alt="Logo David Gomez">
+  </a>
 </div>
 
-        <div class="hero-buttons">
-        <a class="btn primary">Ver proyectos</a>
-        <a class="btn ghost">Contacto</a>
-        </div>
-        <script src="script.js"></script> <!-- Incluimos el archivo Javascript en la carpeta "js"-->
+  <div class="hero-buttons">
+    <a class="btn primary" href="#Videojuegos">Ver proyectos</a>
+    <a class="btn ghost" href="#Contacto">Contacto</a>
+  </div>
+</section>
+
+<section id="Sobre-mi" class="section">
+    <h2>Sobre mí</h2>
+    <p class="about-text">
+Soy desarrollador de videojuegos con enfoque en programación y arte 3D.
+Me gusta crear experiencias interactivas combinando lógica, diseño y estética.
+Trabajo tanto en proyectos personales como colaborativos.
+    </p>
+    <div class="skills-grid">
+        <div class="skill-card">
+        <img src="icons/unity.svg" alt="Unity">
+        <span>Unity</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="icons/blender.svg" alt="Blender">
+        <span>Blender</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="icons/csharp.svg" alt="C# para Unity">
+        <span>C# para Unity</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="icons/html.svg" alt="HTML">
+        <span>HTML</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="icons/css.svg" alt="CSS">
+        <span>CSS</span>
+    </div>
+
+    <div class="skill-card">
+        <img src="icons/photoshop.svg" alt="Photoshop">
+        <span>Photoshop</span>
+    </div>
+
+</section>
+
+<section id="Videojuegos" class="section">
+    <h2>Videojuegos</h2>
+</section>
+
+<section id="Blender" class="section">
+    <h2>Blender</h2>
+</section>
+
+<section id="Cortometrajes" class="section">
+    <h2>Cortometrajes</h2>
+</section>
+
+<section id="Contacto" class="section">
+    <h2>Contacto</h2>
+</section>
     </body> 
 </html>
