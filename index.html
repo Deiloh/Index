@@ -18,14 +18,14 @@
         <li><a href="#home">Home</a></li>
       <li><a href="#Sobre-mi">Sobre mí</a></li>
       <li><a href="#Videojuegos">Videojuegos</a></li>
-      <li><a href="#Cortometrajes">Cortometrajes</a></li>
-      <li><a href="#Blender">Blender</a></li>
+      <li><a href="#Visuales">Visuales</a></li>
+      <li style="display: none;"> <!-- BLENDER MOMENTANEAMENTE NO SE MOSTRARÁ POR CONTENIDO INSUFICIENTE. --><a href="#Blender">Blender</a></li>
     </ul>
   </div>
 </nav>
         <section id="home" class="section_hero">
   <h1>· David Gomez ·</h1>
-  <h2 class="subtitle">Game Developer · Programador · Artista 3D</h2>
+  <h2 class="subtitle">Desarrollo de Videojuegos · Arte 3D · Producción Audiovisual</h2>
 
   <div class="hero-logo">
   <a href="https://www.youtube.com/@Deiloh" target="_blank" rel="noopener">
@@ -42,47 +42,58 @@
 <section id="Sobre-mi" class="section">
     <h2>Sobre mí</h2>
     <p class="about-text">
-Soy desarrollador de videojuegos con enfoque en programación y arte 3D.
-Me gusta crear experiencias interactivas combinando lógica, diseño y estética.
-Trabajo tanto en proyectos personales como colaborativos.
+     Soy David, Me gusta crear cosas. A veces son juegos, otras modelos 3D, videos, cortos o ideas que todavía están en proceso. Me interesa el contenido digital como un espacio para experimentar, mezclar y crear arte dentro del mundo virtual.
+
+    <p class="about-text">Intento que cada proyecto tenga algo propio, que diga algo, y no que sea solo contenido más.
+Estoy en mi primer año de la carrera de Producción y Desarrollo de Videojuegos, con la idea de aprender de distintos ámbitos y seguir explorando todo lo que tiene que ver con la creacion de contenido.</p>
+<p class="about-text">Herramientas con las que trabajo;</p>
     </p>
     <div class="skills-grid">
         <div class="skill-card">
         <img src="icons/unity.png" alt="Unity">
         <span>Unity</span>
+        <div class="stars" title="Basico">★★☆☆</div>
     </div>
 
-    <div class="skill-card">
+    <div class="skill-card"> <!-- BLENDER MOMENTANEAMENTE NO SE MOSTRARÁ POR CONTENIDO INSUFICIENTE. -->
+
         <img src="icons/blender.png" alt="Blender">
         <span>Blender</span>
+        <div class="stars" title="Basico">★★☆☆☆</div>
     </div>
 
     <div class="skill-card">
         <img src="icons/Csharp.png" alt="C# para Unity">
         <span>C# para Unity</span>
+        <div class="stars" title="Basico">★★☆☆☆</div>
     </div>
 
     <div class="skill-card">
         <img src="icons/html.png" alt="HTML">
         <span>HTML</span>
+        <div class="stars" title="Basico">★★☆☆☆</div>
     </div>
 
     <div class="skill-card">
-        <img src="icons/css.png" alt="CSS">
-        <span>CSS</span>
+      <img src="icons/css.png" alt="CSS">
+      <span>CSS</span>
+        <div class="stars" title="Basico">★★☆☆☆</div>
     </div>
 
     <div class="skill-card">
         <img src="icons/PS.png" alt="Photoshop">
         <span>Photoshop</span>
+        <div class="stars" title="Principiante">★☆☆☆☆</div>
     </div>
     <div class="skill-card">
         <img src="icons/PP.png" alt="Premiere Pro">
         <span>Premiere Pro</span>
+        <div class="stars" title="Principiante">★☆☆☆☆</div>
     </div>
       <div class="skill-card">
         <img src="icons/AF.png" alt="After Effects">
         <span>After Effects</span>
+        <div class="stars" title="Principiante">★☆☆☆☆ </div>
     </div>
 
 </section>
@@ -131,11 +142,62 @@ Trabajo tanto en proyectos personales como colaborativos.
 
   </div>
 </section>
-<section id="Cortometrajes" class="section">
-    <h2>Cortometrajes</h2>
+<section id="Visuales" class="section">
+    <h2>Visuales</h2>
+  <div class="shorts-scroll">
+    <a class="short-card">
+      <video class="video-project" controls preload="metadata">
+        <source src="Proyects/Lo intentaba.mp4" type="video/mp4">
+      </video>
+      <h3>Lo intentaba</h3>
+      <p>Trabajo realizado con pautas definidas por un docente.</p>
+      <div class="short-card-img-box">
+        <img src="icons/PP.png" title="Premiere Pro">
+        
+      </div>
+    </a>
+    <a class="short-card">
+      <video class="video-project" controls preload="metadata">
+        <source src="Proyects/Mano Pesada.mp4" type="video/mp4">
+      </video>
+      <h3>Mano Pesada</h3>
+      <p>Trabajo realizado con pautas definidas por un docente.</p>
+      <div class="short-card-img-box">
+        <img src="icons/PP.png" title="Premiere Pro">
+        
+      </div>
+      
+    </a>
+
+     <a class="short-card">
+      <video class="video-project" controls preload="metadata">
+        <source src="Proyects/Edit 1.mp4" type="video/mp4">
+      </video>
+      <h3>Edit experimental</h3>
+      <p>Edit de "Mano pesada" experimental creado en After Effects y Premiere Pro.</p>
+      <div class="short-card-img-box">
+        <img src="icons/PP.png" title="Premiere Pro">
+        <img src="icons/AF.png" title="After Effects">
+        
+      </div>
+      
+    </a>
+
+    <a class="short-card" style="display: none;">
+      <img src="Proyects/" alt="">
+      <h3>oa</h3>
+      <p>foto blender</p>
+      <div class="short-card-img-box">
+        <img src="icons/blender.png" title="Blender">
+        
+      </div>
+    </a>
+  
+  
+    
 </section>
 
-<section id="Blender" class="section">
+<section id="Blender" class="section" style="display: none;"> <!-- BLENDER MOMENTANEAMENTE NO SE MOSTRARÁ POR CONTENIDO INSUFICIENTE. -->
     <h2>Blender</h2>
     <p style="text-align: center;">
       Aca todavia no hay informacion..
