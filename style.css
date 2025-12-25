@@ -443,6 +443,42 @@ h2 {
   height: 48px;
 }
 
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .section,
+  .section_hero {
+    padding: 80px 20px;
+  }
+
+  .nav_list a {
+    font-size: 16px;
+  }
+
+  .hero-logo img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .skills-grid {
+    grid-auto-columns: minmax(90px, 1fr);
+    gap: 16px;
+  }
+
+  .video-project {
+    height: 220px;
+  }
+
+  .shorts-scroll {
+    grid-auto-columns: 85%;
+  }
+}
+
 
 
 
