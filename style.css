@@ -263,8 +263,8 @@ h2 {
   position: absolute;
   top: 100%;
   left: 3;
-  width: 89%;
-  overflow: visible;
+ 
+  
 
   background: rgba(15, 10, 30, 0.95);
   border: 1px solid rgba(127, 90, 240, 0.25);
@@ -273,12 +273,16 @@ h2 {
   margin-top: 8px;
   z-index: 12;
 }
+.skill-card-details[open] {
+  max-height: 200px;
+}
 
 .skill-card-details summary {
   cursor: pointer;
   color: #9A7CFF;
   font-size: 14px;
   list-style: none;
+  
 }
 
 .skill-card-details summary::-webkit-details-marker {
@@ -291,6 +295,9 @@ h2 {
 
 .skill-card-details[open] summary::after {
   content: " −";
+  align-self: center;
+  
+
 }
 
 .timeline-details p {
