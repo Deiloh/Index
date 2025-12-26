@@ -447,17 +447,27 @@ h2 {
 
 @media (max-width: 768px) {
 
+  .nav_container{
+    padding: 8px 16px;
+  }
+
+  .hero-logo-nav img{
+    width: 35px;
+    height: 35px;
+  }
+
   .section,
   .section_hero {
     padding: 80px 20px;
+    min-height: 50vh;
   }
   .section_hero h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .nav_list a {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 0px;
   }
 
   .hero-logo img {
