@@ -500,6 +500,43 @@ h2 {
   height: 48px;
 }
 
+
+.contact-logo-under {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-logo-under a {
+    display: inline-block;
+    padding: 20px;
+}
+
+.contact-logo-under img {
+    pointer-events: auto;
+
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    object-fit: cover;
+
+    background: #ffffff13;
+    padding: 8px;
+
+    box-shadow: 0 0 20px rgba(190, 190, 190, 0.35);
+
+    transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+
+    
+}
+.contact-logo-under img:hover {
+    transform: scale(1.10) rotate(25deg);
+}
+
+
 /* ================= celu ================= */
 
 @media (max-width: 768px) {
