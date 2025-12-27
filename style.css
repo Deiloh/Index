@@ -543,10 +543,27 @@ h2 {
     grid-auto-columns: minmax(90px, 1fr);
     gap: 16px;
   }
-    .skill-card-details {
-    width: 90vw;       
+  .skill-card-details {
     left: 50%;
+    right: auto;
     transform: translateX(-50%);
+    width: 100px;
+  }
+  
+  .skill-card-details summary {
+    justify-content: center;
+  }
+  .skill-card-details[open] {
+    left: auto;
+    right: 0;                 
+    transform: none;           
+    width: 60vw;               
+    max-height: 300px;
+  }
+
+  .skill-card-details[open] summary {
+    justify-content: flex-end;
+    padding-right: 6px;
   }
 
   .video-project {
